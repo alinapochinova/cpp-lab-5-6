@@ -140,7 +140,7 @@ public:
 		// Перебираем все смартфоны и вычисляем среднюю стоимость для каждого производителя
 		for (int i = 0; i < n; i++) {
 			char currentManufacturer[50];
-			float totalCost = 0;
+			double totalCost = 0;
 			int count = 0;
 
 			// Проверяем, есть ли уже данные для текущего производителя
